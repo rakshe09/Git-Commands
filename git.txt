@@ -1,0 +1,39 @@
+git config --global user.name "username"
+git config --global user.email "email"
+
+open chrome and create repository
+
+open terminal in folder where file is present
+craete text file
+
+git init
+git status
+git add . or git init filename
+git commit -m "commit"
+git status
+
+git remote add origin repository link
+git branch -m main or master
+git push -u origin main or master
+
+make changes in file
+git add .
+git commit -m "2nd commit"
+git push -u origin main
+
+git branch slave
+git branch
+
+git checkout slave
+git status
+
+git add .
+
+git push -u origin slave
+git checkout main
+git merge slave
+
+
+
+
+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 if passward is not working use this as passward
